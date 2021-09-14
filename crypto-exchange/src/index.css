@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: DarkSlateGrey;
+  align-items: center;
+}
+h1 {
+  text-align: left;
+}
+
+label {
+  font-size: xx-large;
+  color: #fff;
+  font-weight: 700;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  font-weight: 100;
+}
+.top {
+  height: 120px;
+  width: 100%;
+  background-color: coral;
+  background-size: 100% 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.margin {
+  padding: 20px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 1000px;
+  border: 2px solid black;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.crypto {
+  display: flex;
+  border: 2px solid black;
+  padding: 2px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: left;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.crypto img {
+  /*display: flex;
+  align-items: center;
+  justify-content: space-between;*/
+  height: 40px;
+  width: 70px;
+  padding-right: 30px;
+}
+
+.crypto p {
+  font-size: small;
+}
+
+.crypto.price {
+  color: black;
+  font-size: medium;
+  border: 0;
+  align-self: flex-end;
+}
+
+.btn {
+  display: inline-block;
+  background: OrangeRed;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+.btn:hover {
+  transform: scale(1.02);
+  background-color: gray;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.btn-time {
+  width: 10%;
+  text-justify: newspaper;
+  background-color: white;
+  border-radius: 40px;
+  border: 2px solid coral;
+  color: black;
+}
+.btn-time:hover {
+  transform: scale(1.02);
+  background-color: coral;
+  color: white;
+}
+.btn-time:active {
+  transform: scale(0.98);
+  background-color: navy;
+}
+
+.task {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.task.reminder {
+  border-left: 5px solid green;
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-form {
+  max-width: 20%;
+  margin-left: 15%;
+}
+
+.form-control {
+  margin: 0px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+.chart {
+  width: 100%;
+  height: 800px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
